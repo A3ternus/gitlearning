@@ -1,6 +1,67 @@
 'use strict'
 
+'use strict'
 
+const str = 'heLLo!';
+const arr = [1, 2, 3];
+
+console.log(str.toUpperCase()); 
+console.log(str.toLowerCase()); 
+
+console.log(str);
+
+const fruit = 'Some fruit';
+
+console.log(fruit.indexOf('fruit'));
+
+const logg = 'Hello world';
+
+console.log(logg.slice(-6, -1))
+
+
+let test = 'Privet Mister';
+console.log(test.substr(6, 6));
+
+const num3 = 12.3;
+console.log(Math.round(num3));
+
+const xxx = '12.2px';
+console.log(parseInt(xxx));
+console.log(parseFloat(xxx));
+
+let userName = 'Вася';
+
+function showMessage() {
+     userName = 'Moron';
+  let message = 'Привет, ' + userName;
+  console.log(message);
+}
+
+showMessage(); // Привет, Вася
+
+
+function name (test) {
+    let ask = prompt('Как оно?', 'Zbs')
+    console.log('Hello!');
+}
+name();
+
+
+function learnJS (lang, callback) {
+    console.log(`Я учу: ${lang}`);
+    callback();
+}
+
+function done() {
+    console.log('Я провёл урок!');
+}
+
+learnJS('JavaScript', done);
+
+function name (name1) {
+    console.log('Hello!');
+}
+name1();
 
 let num = 20;
 
