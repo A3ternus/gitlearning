@@ -1,8 +1,75 @@
 'use strict'
 
+// УРОК 21 МАССИВЫ И ПСЕВДОМАССИВЫ
+
+// // const arr = [3, 21, 5];
+// // arr.sort(compareNum); 
+// // console.log(arr)
+
+// // function compareNum(a, b) {
+// //     return a - b;
+// // }
+
+
+
+
+// // // arr.shift();
+
+
+// // arr.forEach(function(item, i , arr) {
+// // console.log(`${i}: ${item} внутри массива ${arr}`)
+// // });
+
+
+// // arr[10] = 0;
+// // console.log(arr.length);
+
+// // arr.pop();
+// // arr.push(6)
+
+
+
+
+// // console.log(arr)
+
+// // for (let i = 0; i < arr.length; i++) {
+// //     console.log(arr[i ])
+// // }
+
+// // for (let value of arr) {
+// //     console.log(value); 
+// // }
+
+// const str = prompt('', '');
+// const products = str.split(', ');
+// products.sort();
+// console.log(products.join('; '));
+
+
+//20 УРОК ДЕСТРУКТУРИЗАЦИЯ ОБЪЕКТОВ
+
+// const options = {
+//     name: 'test',
+//     width: 1024,
+//     height: 1024,
+//     colors: {
+//         border: 'black',
+//         bg: 'red'
+//     }
+// };
+// for (let key in options) {
+//     if (typeof(options[key]) === 'object') {
+//         for (let i in options[key]) {
+//             console.log(`Свойство ${i} имеет значение ${options[key][i]}`);
+//         }
+//     } else {
+//     console.log(`Свойство ${key} имеет значение ${options[key]}`);
+//     }
+// }
+
+
 // function first() {
-//     // do som
-//     setTimeout(function() {
+//     // do something     setTimeout(function() {
 //         console.log(1);
 //     }, 500);
 // }
