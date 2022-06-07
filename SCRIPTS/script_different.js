@@ -1,5 +1,35 @@
 'use strict'
 
+// УРОК 24 ООП 
+
+// let str = 'some';
+// let strObj = new String(str);
+
+// // console.log(typeof(str));
+// // console.log(typeof(strObj));
+
+// console.dir([1, 2, 3]); 
+
+// const soldier = {
+//     health: 400,
+//     armor: 100,
+//     sayHi: function() {
+//         console.log('QQ MAN');
+//     }
+// };
+
+// const john = Object.create(soldier);
+// john.sayHi();
+
+// // const john = {
+// //     health: 100
+// // };
+
+// // Object.setPrototypeOf(john, soldier);
+// // // john.__proto__ = soldier;
+
+// // // console.log(john.armor);
+
 // УРОК 22 ПЕРЕДАЧА ПО ССЫЛКЕ, SPREAD
 
 // let a = 5,
